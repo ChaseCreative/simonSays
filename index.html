@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 		<title>Verb Shuffle</title>
+ 		<meta charset="utf-8"/>
+<link rel="stylesheet" href="imperativeStyleSheet.css" type="text/css"/>
+
+
+
+</head>
+
+
+
+
+<div class = "divBox">
+
+
+<!-- Three boxes aligned horizontally  -->
+  <div id = "counterTimer">
+  <h2 id = "boxOne" class = "boxes">Timer</h2>
+  <h2 id = "boxTwo" class = "boxes">App Name</h2>
+  <h2 id = "boxThree" class = "boxes">Score</h2>
+  </div>
+
+
+<!-- Buttons are inserted within heading elements  -->
+  <h1 id = "questionOne"><button id = "startButton" class = "startButton" type="button" value ="0" ></button></h1>
+
+
+
+  <h2 id = "A1" class = "answers" ><button id = "answerOne" class = "button" type="button" value = "1" onclick = "selectGame1()"></button></h2>
+
+ 
+ 
+  <h2 id = "A2" class = "answers"><button id = "answerTwo" class = "button" type="button" value = "2" onclick = "selectGame2()"></button></h2>
+
+ 
+
+  <h2 id = "A3" class = "answers"><button id = "answerThree" class = "button" type="button" value = "3" onclick = "selectGame3()"></button></h2>
+
+
+
+  <h2 id = "A4" class = "answers"><button id = "answerFour" class = "button" type="button" value = "4"  onclick = "selectGame4()"></button></h2>
+ 
+   
+  <h1 id = "responseNext"><button id = "responseButton" class = "responseButton" type="button" value = "5" ></button></h1>
+
+</div>
+
+
+
+
+
+<!-- Audio element must be within the BODY section  -->
+<audio id="gameOverAudio" src="GameOver.mp3" ></audio>
+<audio id="correctAnswerAudio" src="LevelUp.mp3" ></audio>
+<audio id="wrongAnswerAudio" src="VZ2.mp3" ></audio>
+
+
+ 
+
+
+<script src = "imperativeMain.js" type="text/javascript">
+
+
+</script>
+
+
+
+</body>
+</html>
