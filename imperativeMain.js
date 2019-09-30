@@ -272,6 +272,7 @@ function selectGame4(){
  shuffle(firstVocative);
  shuffle(secondImperative);
  shuffle(secondVocative);
+ shuffle(irregularSecondVocative);
  //shuffle(secondImperative);
  //shuffle(imperativeEndings);
 
